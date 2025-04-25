@@ -1,55 +1,40 @@
- Project Goal
-Tasked with analyzing aircraft accident data to:
+# Aircraft Accidents Data Analysis
 
-Determine which aircraft pose the lowest risk.
+This project explores patterns in aviation accidents using a publicly available dataset. Through data cleaning, exploratory data analysis (EDA), and visualizations, the goal is to uncover insights that can inform aviation safety practices, policy improvements, and risk reduction strategies.
 
-Provide three actionable business recommendations based on your findings.
+## Project Structure
 
-Dataset Overview
-The dataset covers civil aviation accidents from 1962 to 2023, sourced from the National Transportation Safety Board (NTSB). It likely includes:
+- `AviationData.csv` – Raw dataset containing accident records
+- `Aircraft_Accidents_Analysis.ipynb` – Main analysis notebook
+- `plots/` – Folder containing generated graphs and visualizations
+- `README.md` – Project overview and documentation
 
-Dates, locations, and descriptions of incidents
+## Key Questions Explored
 
-Aircraft types and operators
+- What is the distribution of fatal vs non-fatal accidents?
+- Which years experienced the highest accident rates?
+- What phases of flight are most prone to accidents?
+- Which aircraft makes and models are most frequently involved in fatal accidents?
+- How have accident trends evolved over time?
 
-Causes of accidents
+## Highlights from the Analysis
 
-Fatalities/injuries
+- **Fatal vs Non-Fatal:** A majority of reported accidents were non-fatal, though fatal incidents represent significant safety risks.
+- **Flight Phase Risk:** Most accidents occurred during critical flight phases such as **landing**, **takeoff**, and **approach**.
+- **Aircraft Make Insight:** Certain aircraft types had notably higher counts of fatal injuries.
+- **Time Trends:** Accident frequencies varied significantly by year, suggesting impacts from regulatory or operational changes.
 
- Approach
-1. Data Cleaning
-Remove duplicates
+## Tools & Libraries Used
 
-Handle missing values (e.g., fill, drop, flag)
+- **Python (Pandas, NumPy)** – Data wrangling and analysis
+- **Matplotlib & Seaborn** – Static data visualization
+- **Plotly** – Interactive plots and charts
+- **Jupyter Notebook** – Exploratory programming and documentation
 
-Standardize column names and types (e.g., dates, categories)
+## Recommendations
 
-2. Data Exploration
-Frequency of incidents over time
-
-Most and least risky aircraft models
-
-Common causes of accidents
-
-Trends by operator, region, or aircraft type
-
-3. Risk Analysis
-Calculate accident rates per aircraft model (e.g., number of accidents / number of years or flights if available)
-
-Analyze severity (fatal vs. non-fatal)
-
-Rank aircraft from least to most risky
-
-4. Recommendations
-Based on your analysis, suggest:
-
-Which aircraft models are safest
-
-What risks the company should be aware of
-
-How to mitigate those risks when operating certain aircraft
-
-5. Visualization
-Use charts (bar, line, pie, heatmaps) to support your analysis
-
-Consider creating a basic dashboard (optional, for extra value)
+Based on the findings, the following recommendations were proposed:
+- Enhance **pilot training** for high-risk flight phases
+- Improve **weather integration** in flight planning tools
+- Prioritize **inspections** for aircraft with higher fatality histories
+- Encourage industry-wide adoption of **Safety Management Systems (SMS)**

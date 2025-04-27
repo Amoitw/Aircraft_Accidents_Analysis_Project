@@ -4,10 +4,12 @@ This project explores patterns in aviation accidents using a publicly available 
 
 ## Project Structure
 
-- `AviationData.csv` – Raw dataset containing accident records
+- `Data/` – Folder containing Raw dataset containing accident records
 - `Aircraft_Accidents_Analysis.ipynb` – Main analysis notebook
-- `plots/` – Folder containing generated graphs and visualizations
+- `Visualization/` – Folder containing generated graphs and visualizations
 - `README.md` – Project overview and documentation
+- `Aircraft_Accidents_Analysis_Dashbord.twbx` - Tableau dashboard
+- `Aircraft Accidents Analysis Presenation.ppt` - Powerpoint presentation
 
 ## Key Questions Explored
 
@@ -30,6 +32,7 @@ This project explores patterns in aviation accidents using a publicly available 
 - **Matplotlib & Seaborn** – Static data visualization
 - **Plotly** – Interactive plots and charts
 - **Jupyter Notebook** – Exploratory programming and documentation
+- **Tableau Dashboard** - Interactive and story telling plots and charts
 
 ## Recommendations
 

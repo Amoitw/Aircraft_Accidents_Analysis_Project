@@ -4,7 +4,7 @@ This project explores patterns in aviation accidents using a publicly available 
 
 ## Project Structure
 
-- `Data/` – Folder containing Raw dataset containing accident records
+- `Data/` – Folder containing Raw dataset containing accident records (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 - `Aircraft_Accidents_Analysis.ipynb` – Main analysis notebook
 - `Visualization/` – Folder containing generated graphs and visualizations
 - `README.md` – Project overview and documentation

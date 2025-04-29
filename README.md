@@ -8,7 +8,7 @@ This project explores patterns in aviation accidents using a publicly available 
 - `Aircraft_Accidents_Analysis.ipynb` – Main analysis notebook
 - `Visualization/` – Folder containing generated graphs and visualizations
 - `README.md` – Project overview and documentation
-- `Aircraft_Accidents_Analysis_Dashbord.twbx` - Tableau dashboard
+- `Aircraft_Accidents_Analysis_Dashbord.twbx` - Tableau dashboard (https://public.tableau.com/app/profile/winnie.amoit/viz/Book1_17457810723630/AircraftAccidentsAnalysisDashboard?publish=yes)
 - `Aircraft Accidents Analysis Presenation.ppt` - Powerpoint presentation
 
 ## Key Questions Explored
